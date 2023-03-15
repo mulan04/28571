@@ -1,9 +1,11 @@
 pipeline {
+/*    
     agent {
         node {
             label 'docker-agent'
         }
     }
+*/    
     stages {
         stage('Aqua scanner') {
           agent {
