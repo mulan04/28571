@@ -19,6 +19,7 @@ pipeline {
               string(credentialsId: 'GITHUB_TOKEN', variable: 'GITHUB_TOKEN')
             ]){
               sh '''
+                ls -la .
                 export TRIVY_RUN_AS_PLUGIN=aqua
                 trivy fs --scanners config,vuln,secret .
                 # To customize which severities to scan for, add the following flag: --severity UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL
