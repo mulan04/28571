@@ -13,8 +13,8 @@ pipeline {
           }
           steps {
 //            git branch: 'main', url: 'https://github.com/mulan04/28571.git'
-            git branch: 'main', credentialsId: '62cdef54-1992-410d-9116-170f28646c0a', url: 'https://github.com/mulan04/28571.git'
-//            git branch: 'main', credentialsId: '62cdef54-1992-410d-9116-170f28646c0a', url: 'https://github.com/mulan04/insecure-banker-app.git'
+//            git branch: 'main', credentialsId: '62cdef54-1992-410d-9116-170f28646c0a', url: 'https://github.com/mulan04/28571.git'
+            git branch: 'main', credentialsId: '62cdef54-1992-410d-9116-170f28646c0a', url: 'https://github.com/mulan04/insecure-banker-app.git'
               //
               //
               //
